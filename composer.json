@@ -1,0 +1,15 @@
+{
+    "require": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ut\\src\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ut\\tests\\": "tests"
+        }
+    }
+}
